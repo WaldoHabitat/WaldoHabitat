@@ -1,0 +1,82 @@
+#header {
+    position: relative;
+    margin: 0 auto 0;
+    padding-top: 0px;
+    background-color: red;
+}
+
+.container .info{
+    background-color: red;
+}
+
+a:link{
+    text-decoration:none;
+    color:inherit;
+}
+
+body{
+    padding:0px;
+    background-color:white;
+}
+
+.card {
+    transition: box-shadow .3s;
+    border-radius:10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    float: left;
+
+}
+.card:hover {
+    box-shadow: 0 0 15px rgba(33,33,33,.2);
+}
+
+.card-block{
+    padding-top:0px;
+}
+
+.caption{
+    top: 50%;
+    transform: translateY(50%);
+}
+
+.center{
+    text-align:center;
+}
+
+.carousel{
+    background-image:url('../img/ep_naturalblack.png');
+}
+
+.carousel-item{
+    background:none;
+}
+
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    margin-top: -1px;
+}
+
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.fa{
+    color: #005190;
+    text-align:center;
+}
+
+.nav-item{
+    padding:10px;
+}
+
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+    margin-top: 0;
+}
